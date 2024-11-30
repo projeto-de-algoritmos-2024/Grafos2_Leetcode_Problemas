@@ -51,5 +51,15 @@ public:
             grafo[u].push_back({v, w});
             grafoReverso[v].push_back({u, w});
         }
+        
+        // Encontra os caminhos mínimos partindo de cada um dos três nós principais
+        // De src1 para todos os outros nós
+        vector<long long> dist1 = dijkstra(n, grafo, src1);
+
+        // De src2 para todos os outros nós
+        vector<long long> dist2 = dijkstra(n, grafo, src2);
+
+        // Usando grafo reverso para obter as distâncias até o destino
+        vector<long long> distDest = dijkstra(n, grafoReverso, dest);
     }
 };
