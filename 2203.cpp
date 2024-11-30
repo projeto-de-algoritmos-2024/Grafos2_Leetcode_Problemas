@@ -61,5 +61,19 @@ public:
 
         // Usando grafo reverso para obter as distâncias até o destino
         vector<long long> distDest = dijkstra(n, grafoReverso, dest);
+        
+        long long resultado = LLONG_MAX;
+        
+        // Para cada nó, verificamos se ele pode ser usado como ponto intermediário
+        // que conecta os caminhos de src1 -> i, src2 -> i, e i -> dest.
+        for (int i = 0; i < n; ++i) {
+            if (dist1[i] != LLONG_MAX && dist2[i] != LLONG_MAX && distDest[i] != LLONG_MAX) {
+                // Atualiza o resultado com o menor custo encontrado considerando os caminhos válidos.
+                resultado = min(resultado, dist1[i] + dist2[i] + distDest[i]);
+            }
+        }
+        
+        // Se resultado ainda for infinito, não foi possível encontrar um caminho válido
+        return resultado == LLONG_MAX ? -1 : resultado;
     }
 };
