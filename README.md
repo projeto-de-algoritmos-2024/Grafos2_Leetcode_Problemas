@@ -1,45 +1,36 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Leetcode_Problemas
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 20<br>
+**Conteúdo da Disciplina**: Grafos 2<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 22/1021886  |  Cássio Sousa dos Reis |
+| 22/1008267  |  Lucas Gama de Araujo Bottino |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Este projeto tem como objetivo a resolução de exercícios da plataforma de juíz online [LeetCode](https://leetcode.com/) sobre o conteúdo de Grafos 2.
+
+## Questões
+
+| Nome                                  | Dificuldade |
+| ------------------------------------- | ----------- |
+| [778. Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/description/) | Difícil       |
+| [2203. Minimum Weighted Subgraph With the Required Paths](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/description/)                  | Difícil       |
+| [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)     | Média     |
+| [1631. Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/description/)                            | Média     |
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+### 1584. Min Cost to Connect All Points
+![1584. Min Cost to Connect All Points](images/1584.png)
+
+### 2203. Minimum Weighted Subgraph With the Required Paths
+![2203. Minimum Weighted Subgraph With the Required Paths](images/2203.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C++ e Python<br>
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
+Para rodar os códigos, primeiro acesse o site do [LeetCode](https://leetcode.com/), faça login e pesquise a questão. Depois, selecione a linguagem correta, copie e cole o código na aba "Code", e clique em "Run" para testar.
