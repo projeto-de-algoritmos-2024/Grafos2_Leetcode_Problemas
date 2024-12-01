@@ -23,11 +23,17 @@ Este projeto tem como objetivo a resolução de exercícios da plataforma de ju�
 
 ## Screenshots
 
-### 1584. Min Cost to Connect All Points
-![1584. Min Cost to Connect All Points](images/1584.png)
+### 778. Swim in Rising Water
+![778. Swim in Rising Water](images/778.png)
 
 ### 2203. Minimum Weighted Subgraph With the Required Paths
 ![2203. Minimum Weighted Subgraph With the Required Paths](images/2203.png)
+
+### 1584. Min Cost to Connect All Points
+![1584. Min Cost to Connect All Points](images/1584.png)
+
+### 1631. Path With Minimum Effort
+![1631. Path With Minimum Effort](images/1631.png)
 
 ## Instalação 
 **Linguagem**: C++ e Python<br>
