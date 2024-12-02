@@ -52,4 +52,5 @@ Para rodar os códigos, primeiro acesse o site do [LeetCode](https://leetcode.co
 ## Apresentações sobre os exercícios
 
 [Visite aqui a apresentação dos exercícios 1631 e 778](https://youtu.be/cCIk0-t3fWI)
+
 [Visite aqui a apresentação dos exercícios 2203 e 1584](https://youtu.be/SiCoMR4FODc)
